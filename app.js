@@ -74,13 +74,17 @@ function setKittenMood(kitten) {
 function clearKittens(){
 }
 
+/**
+ * Removes the welcome content and should probably draw the 
+ * list of kittens to the page. Good Luck
+ */
 function getStarted() {
   document.getElementById("welcome").remove();
   console.log('Good Luck, Take it away')
 }
 
 
-
+// --------------------------------------------- No Changes below this line are needed
 
 /**
  * Defines the Properties of a Kitten
