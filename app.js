@@ -88,7 +88,7 @@ function getStarted() {
 
 /**
  * Defines the Properties of a Kitten
- * @typedef {{name: string, mood: string, affection: number}} Kitten
+ * @typedef {{id:sting, name: string, mood: string, affection: number}} Kitten
  */
 
 
