@@ -123,6 +123,25 @@ button.btn-special:hover{
   border-radius: var(--corners);
 }
 
+.kitten-card{
+  width: 250px;
+  overflow: hidden;
+  background-color: var(--light);
+  padding: 1em;
+  box-shadow: var(--shadow);
+  border-radius: var(--corners);
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
 .shadow{
   filter: drop-shadow(var(--shadow));
 }
@@ -270,6 +289,12 @@ button.btn-special:hover{
 }
 .action:hover{
   filter: brightness(1);
+}
+
+.shadows-into-light-regular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .hidden{
